@@ -1,3 +1,5 @@
+Note: This repository is a simplified portfolio/demo version of a larger e-commerce project. Production integrations such as payment gateways, SMS/OTP, email delivery, and deployment infrastructure have been intentionally removed so the project can be run locally without external services.
+
 # Kurdistan Store — Portfolio Demo
 
 A full-stack e-commerce application built with **React 19** and **Laravel 12 (Bagisto)**, targeting the Kurdistan / Iraq market.
