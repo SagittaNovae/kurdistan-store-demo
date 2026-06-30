@@ -1,0 +1,36 @@
+# ===========================
+# Root .gitignore
+# ===========================
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/vendor/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Build outputs
+dist/
+frontend/dist/
+backend/public/assets/
+
+# Logs & runtime files
+*.log
+backend/storage/logs/
+backend/storage/framework/cache/
+backend/storage/framework/sessions/
+backend/storage/framework/views/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Misc
+*.zip
+*.sql

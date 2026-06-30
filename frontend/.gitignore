@@ -1,0 +1,13 @@
+# Frontend build output
+dist/
+
+# Local env
+.env
+.env.local
+
+# Dependencies
+node_modules/
+
+# Editor
+.DS_Store
+Thumbs.db

@@ -1,0 +1,33 @@
+{
+    "name": "store/kurdistan-store",
+    "description": "Storefront API, search, and Kurdistan payment integrations for Bagisto",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Store Team"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Store\\KurdistanStore\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Store\\KurdistanStore\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Store\\KurdistanStore\\Providers\\KurdistanStoreServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}

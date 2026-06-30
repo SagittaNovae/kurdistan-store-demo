@@ -1,0 +1,11 @@
+{
+  "name": "kurdistan-store-demo",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "deploy": "npm run build --prefix frontend && cp frontend/dist/index.html backend/public/spa.html && cp frontend/dist/favicon.svg backend/public/favicon.svg && rm -rf backend/public/assets && cp -r frontend/dist/assets backend/public/assets && chmod o+r backend/public/spa.html backend/public/favicon.svg && chmod o+rx backend/public/assets && chmod o+r backend/public/assets/*",
+    "lint": "npm run lint --prefix frontend",
+    "preview": "npm run preview --prefix frontend"
+  }
+}
